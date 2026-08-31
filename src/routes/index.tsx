@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 
 import landingHtml from "../../public/mapa.html?raw";
 import { CoverflowCarousel } from "@/components/ui/coverflow-carousel";
-import kitMockupImg from "@/assets/kit-mockup-psi.webp";
+import kitMockupAsset from "@/assets/kit-mockup-novo.png.asset.json";
 import psiMapa2 from "@/assets/psi-mapa-2.webp";
 import psiMapa3 from "@/assets/psi-mapa-3.webp";
 import psiMapa4 from "@/assets/psi-mapa-4.webp";
@@ -28,7 +28,7 @@ import avatar3 from "@/assets/avatar-3.jpg";
 import avatar4 from "@/assets/avatar-4.jpg";
 import avatar5 from "@/assets/avatar-5.jpg";
 
-const kitMockup = kitMockupImg;
+const kitMockup = kitMockupAsset.url;
 const mapas = [
   psiMapa2,
   psiMapa3,
