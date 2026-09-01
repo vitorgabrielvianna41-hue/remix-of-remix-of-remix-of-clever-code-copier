@@ -148,8 +148,24 @@ h1, h2, h3, h4 {
 }
 
 .hero-mockup-wrapper {
-  max-width: 560px;
+  max-width: 340px;
   margin: 32px auto 0;
+}
+.hero-vsl-card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #0b1220;
+  box-shadow: 0 24px 40px rgba(16, 24, 40, 0.18);
+}
+.hero-vsl-card wistia-player {
+  display: block;
+  width: 100%;
+}
+.hero-vsl-card wistia-player[media-id="18ltye3ap2"]:not(:defined) {
+  background: center / contain no-repeat url("https://fast.wistia.com/embed/medias/18ltye3ap2/swatch");
+  filter: blur(5px);
+  padding-top: 177.78%;
 }
 .hero-mockup-img {
   width: 100%;

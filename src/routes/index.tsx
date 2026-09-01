@@ -120,6 +120,10 @@ export const Route = createFileRoute("/")({
       },
       { rel: "stylesheet", href: "/style.css" },
     ],
+    scripts: [
+      { src: "https://fast.wistia.com/player.js", async: true },
+      { src: "https://fast.wistia.com/embed/18ltye3ap2.js", async: true, type: "module" },
+    ],
   }),
   component: Index,
 });
